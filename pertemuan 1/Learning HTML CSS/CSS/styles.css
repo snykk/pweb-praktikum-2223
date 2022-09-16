@@ -1,0 +1,109 @@
+/* 
+element -> h1, body, html, span
+class -> .<namakelas>
+id -> #<namaid>
+*/
+
+/* #main-id {
+  color: blue;
+}
+
+.main-heading {
+  color: green;
+}
+
+#main-id {
+  color: red;
+}
+span {
+  color: red;
+  background-color: blue;
+} */
+/* div {
+  background-color: grey;
+  width: 900px;
+  height: 800px;
+} */
+
+/* 
+ukuran
+absolue -> px
+relative -> em, rem
+ukuran laya -> vh. vw
+*/
+/* html {
+  font-size: 16px;
+}
+div {
+  font-size: 10px;
+}
+.px {
+  font-size: 20px;
+}
+
+.em {
+  font-size: 2em;
+}
+.rem {
+  font-size: 1.5rem;
+}
+
+.box {
+  width: 50vw;
+  height: 10vh;
+  background-color: red;
+}
+.box1 {
+  width: 50px;
+  height: 40px;
+  background-color: blue;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100vw;
+  height: 30px;
+  background-color: red;
+}
+
+.content {
+  width: 100vw;
+  height: calc(100vh - 30px);
+  background-color: blue; 
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: black; */
+  /* padding-top: 50px;
+  padding-left: 60px; */
+  padding: 20px 60px 90px 70px;
+  margin: 60px auto;
+  border: 5px solid red;
+  background-color: blue;
+}
+.lingkaran {
+  width: 300px;
+  height: 300px;
+  /* biar lingkarang ada di tengah kita gunakan function call untuk menghitung margin atas dan bawah */
+  margin: calc((100vh - 300px) / 2) auto;
+  background-color: blue;
+  border-radius: 150px;
+}
+.siku {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-top-left-radius: 150px;
+}

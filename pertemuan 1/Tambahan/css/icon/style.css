@@ -1,0 +1,34 @@
+/* 
+CSS VARIABLES AKA Custom Properties
+hold a value and reuse it
+--varName:value
+property:var(--varName)
+scope
+:root{} === global
+element === local
+any property
+
+
+.heading {
+  color: red;
+}
+.text {
+  color: green;
+}
+.main-text {
+  color: blue;
+}
+.second-heading {
+  color: pink;
+}
+*/
+.fa-user-group {
+  font-size: 7rem;
+  color: red;
+  transform: rotateZ(180deg);
+  cursor: no-drop;
+}
+.rumah {
+  font-size: 7rem;
+  color: green;
+}

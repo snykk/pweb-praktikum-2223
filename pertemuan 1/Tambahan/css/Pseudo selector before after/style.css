@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+}
+div {
+  width: 30vw;
+  margin: 100px auto;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div::before {
+  content: "";
+  border: 2px solid grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -30px;
+  left: -30px;
+  z-index: -2;
+  transition: all 0.5s;
+}
+
+div::after {
+  content: "";
+  background: grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -15px;
+  left: -15px;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+div:hover::before,
+div:hover::after {
+  top: 0;
+  left: 0;
+}
+
+.salto {
+  width: 30vh;
+  margin: 100px auto;
+}
+.salto:hover {
+  rotate: inherit;
+}

@@ -1,0 +1,52 @@
+/* 
+transition 0 to 100%
+ANIMATION 0 1% 2% ... 100%
+*/
+
+div {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+}
+.transition {
+  background: red;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: yellow;
+  color: red;
+  /* transform: translateX(100px); */
+  transform: translate(50px, 50px);
+}
+.animation {
+  background: blue;
+  /* animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; */
+  animation: move 5s infinite; /*shorthand*/
+}
+@keyframes move {
+  /*broken animation lmao*/
+  0% {
+    background: yellow;
+    color: red;
+  }
+  25% {
+    transform: translate(50px, 50px);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  62.5% {
+    transform: rotateZ(200deg);
+  }
+  75% {
+    transform: translateX(-50px);
+  }
+  100% {
+    background: blue;
+    color: red;
+    transform: translateY(-50px);
+  }
+}

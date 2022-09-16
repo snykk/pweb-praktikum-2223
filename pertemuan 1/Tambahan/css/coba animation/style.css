@@ -1,0 +1,35 @@
+/* 
+animation-fill-mode: what values are applied by the animation outside the time it is executing
+*/
+:root {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.animation {
+  width: 20vw;
+  height: 20px;
+  background: red;
+  animation: loading 1s infinite;
+}
+.coba {
+  width: 20vw;
+  height: 20px;
+  background-color: blue;
+  margin-top: 20px;
+}
+@keyframes loading {
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    transform: translateX(calc(100vw - 22vw));
+  }
+  75% {
+    background-color: blue;
+  }
+}
+
+.coba:hover {
+  transform: translateX(calc(100vw - 22vw));
+}

@@ -1,0 +1,36 @@
+/* 
+transform: translate(), scale(), rotate(), skew()
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  position: relative;
+}
+.one {
+  background-color: red;
+  /* transform: translateX(50%); */
+  /* transform: scaleX(12);
+  z-index: 3; */
+  /* transform: rotateZ(135deg); */
+  transform: skewX(40deg);
+}
+.two {
+  background-color: blue;
+  /* transform: translateY(20%); */
+  /* transform: scaleY(1.9);
+  z-index: 2; */
+  /* transform: rotateZ(45deg); */
+  /* transform: rotate(45deg); */
+  transform: skewY(50deg);
+}
+.three {
+  background-color: green;
+  /* transform: translateX(75px); */
+  /* transform: translate(20%, -20%); */
+  /* transform: scale(2, 2); */
+  /* transform: rotateX(30deg);
+  transform: rotateY(30deg); */
+  transform: skew(40deg, 70deg);
+}

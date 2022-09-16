@@ -1,0 +1,37 @@
+/* 
+how the transition take place
+transition-timing-function:
+transition: all 3s here 2s;
+ease = default
+ease = slow start, fast, slow end
+linear = same speed start to end
+ease-in = slow start
+ease-in-out = slow start, fast, slow end
+*/
+div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+  margin: 15px;
+  transition: all 1s;
+}
+div:hover {
+  transform: translateX(100px);
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}

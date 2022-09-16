@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outer {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  border-radius: 200px;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  top: -5%;
+  left: -5%;
+  position: absolute;
+  border-top-left-radius: 100px;
+}
+
+h1 {
+  background-color: green;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+p {
+  background-color: pink;
+  margin: 10px 15px 10px 10px;
+  border: 2px yellow solid;
+}
+
+div {
+  margin: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.none {
+  display: none;
+}
+
+.opacity-10 {
+  opacity: 1;
+}
+.opacity-05 {
+  opacity: 0.5;
+}
+.opacity-00 {
+  opacity: 0;
+}
+
+.visibility {
+  visibility: hidden;
+}
