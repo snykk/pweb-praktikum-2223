@@ -1,1 +1,6 @@
-# pweb-praktikum-2223
+# Implementasi OOP -> HTML
+# Clean Code
+# Architecture Pattern (MVC)
+# M -> Model
+# V -> View
+# C -> Controller
