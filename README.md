@@ -1,6 +1,1 @@
-# Implementasi OOP -> HTML
-# Clean Code
-# Architecture Pattern (MVC)
-# M -> Model
-# V -> View
-# C -> Controller
+> Repository untuk menyimpan source code praktikum mata kuliah pemrograman berbasis website
