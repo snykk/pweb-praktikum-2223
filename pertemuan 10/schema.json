@@ -1,0 +1,10 @@
+{
+    "1": {
+        "label": "Nama",
+        "placeholder": "Masukkan nama anda"
+    },
+    "2": "Email",
+    "3": "Nomor Hp",
+    "4": false,
+    "5": false
+}
